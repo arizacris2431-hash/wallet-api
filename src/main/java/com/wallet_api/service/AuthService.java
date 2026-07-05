@@ -20,7 +20,7 @@ public class AuthService {
     private final JwtService jwtService;
     private final AuthenticationManager authenticationManager;
 
-    
+
 
     public AuthService(UserService userService, PasswordEncoder passwordEncoder, JwtService jwtService,
             AuthenticationManager authenticationManager) {

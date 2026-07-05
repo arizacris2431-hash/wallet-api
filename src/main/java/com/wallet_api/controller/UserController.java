@@ -25,4 +25,6 @@ public class UserController {
             .registrationDate(user.getRegistrationDate())
             .build());
     }
+
+
 }
